@@ -31,7 +31,7 @@
        update(count);
     }
 
-    elem.addEventListener("click", function() {
+    window.addEventListener("click", function() {
         if (timer) {
             clearInterval(timer);
             timer = null;
